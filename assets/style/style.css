@@ -21,6 +21,55 @@ nav li{justify-content: center;
 nav a{ color: white;
         font-family: 'HelveticaNeue';
         font-size: 16px;}
+ a :hover{color: brown;}       
 .contact{color: #171717; 
      padding: 18px  43px 18px 36px;  
      background-color:#FFFFFF ; }    
+section{ max-width: 1920px;
+    width: 100%;
+padding: 30px 241px 240px
+
+}
+.sectiondiv1{display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h3{font-size: 32px;
+    color: #171717;
+    font-family: 'HelveticaNeue';
+}
+span{width: 10px;
+height: 10px;
+border-radius: 50%;
+color: #0A22F4;}
+.box{ width: 70px;
+    height: 70px;
+    margin-bottom: 40px; 
+    margin-top: 60px;
+}
+.box1{background-color: #F9F9F9;}
+.box2{background-color: #0A22F4;}
+.box3{background-color: #F9F9F9;}
+h6{
+    color: #171717;
+    font-size: 22px;
+    font-family: 'HelveticaNeue';
+    margin-bottom: 20px;
+} 
+
+p{font-size:16px;
+    color: #171717;
+    font-family: 'HelveticaNeue';
+    max-width: 463px;
+}
+
+.servicebox1, .servicebox2, .servicebox3 {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.33% - 10px);
+    align-content: flex-start;
+
+}
+.servicebox2{ margin-left: 25px;
+    margin-right: 25px ;}
+.sectiondiv2 {display: flex;}  
